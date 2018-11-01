@@ -1,0 +1,12 @@
+{
+	"name": "ksb-lap",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/4a1cae9e-fd83-415a-b373-22e1ea762a9d/resourcegroups/ksb/providers/Microsoft.DataFactory/factories/v2testadfv/integrationruntimes/ksb-lap",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
