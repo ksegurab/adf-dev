@@ -19,10 +19,18 @@
 						"type": "LinkedServiceReference"
 					},
 					"folderPath": "adf-customscripts/aws-to-blob",
+					"extendedProperties": {
+						"amazonS3": "AmazonS31",
+						"postgresSql": "ks_postgressql"
+					},
 					"referenceObjects": {
 						"linkedServices": [
 							{
 								"referenceName": "AmazonS31",
+								"type": "LinkedServiceReference"
+							},
+							{
+								"referenceName": "ks_postgress",
 								"type": "LinkedServiceReference"
 							}
 						]
