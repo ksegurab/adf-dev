@@ -1,0 +1,11 @@
+{
+	"name": "ks_postgress",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "PostgreSql",
+		"typeProperties": {
+			"connectionString": "host=ksb-postgressql-srvr.postgres.database.azure.com;port=5432;database=ks_aws_blob;uid=pyscript@ksb-postgressql-srvr;encryptionmethod=1;validateservercertificate=0",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIktTQi1BREYtREVWXzQ5MjhhNjIwLWEwNGYtNDJlNi04OGVmLWZiMTU4MDFmODQ1OCINCn0="
+		}
+	}
+}
